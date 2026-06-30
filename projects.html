@@ -52,7 +52,21 @@ padding:20px;
 text-align:center;
 margin-top:30px;
 }
-</style>
+</style>.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+border:2px solid #4F4F4F;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
 </head>
 
 <body>
@@ -63,7 +77,19 @@ margin-top:30px;
 </header>
 
 <div class="container">
+<h2 style="color:#B8B8B8;text-align:center;">Project Gallery</h2>
 
+<div class="gallery">
+
+<img src="IMG_5057.jpg" alt="Project 1">
+
+<img src="IMG_5088.jpg" alt="Project 2">
+
+<img src="IMG_5094.jpg" alt="Project 3">
+
+<img src="IMG_5132.jpg" alt="Project 4">
+
+</div>
 <div class="project">
 <h2>Industrial Machine Installation</h2>
 <p>Complete installation and commissioning of industrial production machines.</p>
