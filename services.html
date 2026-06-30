@@ -1,17 +1,157 @@
-<html><body style="font-family:Arial">
-    
-<nav>
-<a href="index.html">Home</a> |
-<a href="services.html">Services</a> |
-<a href="projects.html">Projects</a> |
-<a href="contact.html">Contact</a>
-</nav><hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Angel Fabricators</title>
 
-    <h1>Services</h1>
-    <ul>
-    <li>Metal Fabrication</li>
-    <li>Stainless Steel Tanks</li>
-    <li>Industrial Piping</li>
-    <li>Machine Fabrication</li>
-    <li>Welding & Installation</li>
-    </ul></body></html>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+header{
+background:#1a1a1a;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+color:#c0c0c0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+}
+
+.hero{
+background:#222;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:40px;
+color:#c0c0c0;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:50px 20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1f1f1f;
+padding:25px;
+border-left:5px solid #888;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#c0c0c0;
+margin-bottom:10px;
+}
+
+footer{
+background:#1a1a1a;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ANGEL FABRICATORS</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Our Professional Services</h2>
+<p>Industrial Engineering Solutions Since 1985</p>
+</section>
+
+<section class="container">
+
+<div class="services">
+
+<div class="card">
+<h3>Industrial Wiring</h3>
+<p>Industrial electrical installations, control panels and power distribution systems.</p>
+</div>
+
+<div class="card">
+<h3>Machine Installation</h3>
+<p>Professional installation, alignment and commissioning of industrial machinery.</p>
+</div>
+
+<div class="card">
+<h3>Heavy Metal Fabrication</h3>
+<p>Custom fabrication of steel structures, tanks, hoppers and industrial equipment.</p>
+</div>
+
+<div class="card">
+<h3>Stainless Steel Fabrication</h3>
+<p>Manufacturing of stainless steel tanks, platforms and food processing equipment.</p>
+</div>
+
+<div class="card">
+<h3>Industrial Welding</h3>
+<p>MIG, TIG, Arc and specialized industrial welding services.</p>
+</div>
+
+<div class="card">
+<h3>Machine Supply</h3>
+<p>Supply of industrial machines, spare parts and engineering equipment.</p>
+</div>
+
+<div class="card">
+<h3>Conveyor Systems</h3>
+<p>Design, fabrication and installation of conveyor systems.</p>
+</div>
+
+<div class="card">
+<h3>Maintenance & Repairs</h3>
+<p>Preventive maintenance and repair services for industrial machinery.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Angel Fabricators | EST. 1985
+</footer>
+
+</body>
+</html>
