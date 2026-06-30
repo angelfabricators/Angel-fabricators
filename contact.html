@@ -3,118 +3,250 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact Us - Angel Fabricators</title>
+<title>Contact Us | Angel Fabricators</title>
 
 <style>
-body{
-font-family:Arial,sans-serif;
-background:#0a192f;
-color:white;
+
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111111;
+color:white;
 }
 
 header{
-background:#071220;
+background:#1A1A1A;
 padding:20px;
 text-align:center;
+border-bottom:2px solid #4F4F4F;
 }
 
-h1{
-color:gold;
+header h1{
+color:#B8B8B8;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:#1A1A1A;
+}
+
+.hero h2{
+color:#B8B8B8;
+font-size:40px;
 }
 
 .container{
-max-width:900px;
+max-width:1200px;
 margin:auto;
-padding:40px 20px;
+padding:50px 20px;
 }
 
-.contact-box{
-background:#102542;
-padding:30px;
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:#2B2B2B;
+padding:25px;
 border-radius:10px;
-margin-bottom:30px;
+border-left:5px solid #B8B8B8;
 }
 
-.contact-box h2{
-color:gold;
+.card h3{
+color:#B8B8B8;
 margin-bottom:15px;
+}
+
+.card p{
+margin:10px 0;
+line-height:1.7;
+}
+
+form{
+margin-top:30px;
 }
 
 input, textarea{
 width:100%;
-padding:12px;
-margin-top:10px;
+padding:15px;
 margin-bottom:15px;
 border:none;
 border-radius:5px;
+background:#1A1A1A;
+color:white;
 }
 
 button{
-background:gold;
-color:black;
-padding:12px 25px;
+background:#4F4F4F;
+color:white;
+padding:15px 30px;
 border:none;
 border-radius:5px;
-font-weight:bold;
 cursor:pointer;
+font-weight:bold;
 }
 
-a{
-color:gold;
+button:hover{
+background:#666666;
+}
+
+.whatsapp-btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 25px;
+border-radius:6px;
 text-decoration:none;
+font-weight:bold;
+margin-top:15px;
 }
 
 footer{
-background:#071220;
-padding:20px;
+background:#1A1A1A;
+padding:25px;
 text-align:center;
-margin-top:30px;
+margin-top:50px;
+border-top:2px solid #4F4F4F;
 }
+
+.floating-whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>Contact Angel Fabricators</h1>
-<a href="index.html">Back Home</a>
+
+<h1>ANGEL FABRICATORS</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</nav>
+
 </header>
+
+<section class="hero">
+
+<h2>Contact Us</h2>
+
+<p>
+We are ready to assist you with fabrication,
+machine installation, industrial wiring,
+welding and machine supply solutions.
+</p>
+
+</section>
 
 <div class="container">
 
-<div class="contact-box">
-<h2>Contact Information</h2>
+<div class="contact-grid">
+
+<div class="card">
+
+<h3>Company Information</h3>
 
 <p><strong>Company:</strong> Angel Fabricators</p>
-<p><strong>Established:</strong> 1985</p>
-<p><strong>Location:</strong> Lamu-Mpeketoni, Kenya</p>
 
-<p><strong>Phone:</strong> +254 XXX XXX XXX</p>
-<p><strong>WhatsApp:</strong> +254 XXX XXX XXX</p>
-<p><strong>Email:</strong> info@angelfabricators.com</p>
+<p><strong>Established:</strong> 1985</p>
+
+<p><strong>Location:</strong> Lamu – Mpeketoni, Kenya</p>
+
+<p><strong>Phone:</strong> +254780485555</p>
+
+<p><strong>Alternative Phone:</strong> +254112700699</p>
+
+<p><strong>Email:</strong> angelfabricators1985@gmail.com</p>
+
+<a class="whatsapp-btn"
+href="https://wa.me/254780485555">
+Chat on WhatsApp
+</a>
+
 </div>
 
-<div class="contact-box">
-<h2>Send Us a Message</h2>
+<div class="card">
+
+<h3>Send Us a Message</h3>
 
 <form>
-<input type="text" placeholder="Your Name">
 
-<input type="email" placeholder="Your Email">
+<input type="text"
+placeholder="Your Name">
 
-<textarea rows="6" placeholder="Your Message"></textarea>
+<input type="email"
+placeholder="Your Email">
 
-<button type="submit">Send Message</button>
+<textarea rows="6"
+placeholder="Write your message here..."></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
 </form>
 
 </div>
 
 </div>
 
+</div>
+
 <footer>
-Angel Fabricators | Est. 1985
+
+<h3>Angel Fabricators | EST. 1985</h3>
+
+<p>
+Experts in All Industrial Machines,
+Fabrication, Installations and Machine Supply.
+</p>
+
+<p>
+Email: angelfabricators1985@gmail.com
+</p>
+
+<p>
+Phone: +254780485555
+</p>
+
 </footer>
 
+<a class="floating-whatsapp"
+href="https://wa.me/254780485555">
+WhatsApp
+</a>
+
 </body>
-</html>
+  </html>
